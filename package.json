@@ -1,7 +1,7 @@
 {
   "name": "hubot-youtube-v3",
   "description": "A hubot script for searching YouTube with the v3 data API",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Michael Springer <mike@sprngr.me>",
   "license": "MIT",
   "keywords": [
@@ -22,7 +22,6 @@
   "devDependencies": {
     "boolify-string": "^0.1.0",
     "chai": "*",
-    "coveralls": "^2.10.1",
     "del": "^1.1.1",
     "event-stream": "^3.1.5",
     "gulp": "^3.8.2",
@@ -43,8 +42,7 @@
   },
   "main": "index.coffee",
   "scripts": {
-    "test": "gulp test",
-    "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+    "test": "gulp test"
   },
   "homepage": "https://github.com/sprngr/hubot-youtube-v3#readme",
   "directories": {

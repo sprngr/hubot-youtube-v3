@@ -36,8 +36,6 @@ module.exports = (robot) ->
       q: query
     }
 
-    msg. send "No video results for \"#{query}\""
-    
     robot.http(ytSearchUrl)
       .query(searchParams)
       .get() (err, res, body) ->

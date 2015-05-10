@@ -2,3 +2,5 @@ node_modules/
 temp/
 coverage/
 compile/
+
+npm-debug.log
