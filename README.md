@@ -1,5 +1,5 @@
 # hubot-youtube-v3
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 A hubot script for searching YouTube with the v3 Data API
 
@@ -38,7 +38,5 @@ hubot>> http://www.youtube.com/watch?v=v4Wy7gRGgeA
 [travis-image]: http://img.shields.io/travis/sprngr/hubot-youtube-v3/master.svg?style=flat
 [daviddm-url]: https://david-dm.org/sprngr/hubot-youtube-v3.svg?theme=shields.io
 [daviddm-image]: http://img.shields.io/david/sprngr/hubot-youtube-v3.svg?style=flat
-[coveralls-url]: https://coveralls.io/r/sprngr/hubot-youtube-v3
-[coveralls-image]: http://img.shields.io/coveralls/sprngr/hubot-youtube-v3/master.svg?style=flat
 [hubot-youtube]:https://github.com/hubot-scripts/hubot-youtube
 [google-developer]: https://developers.google.com/youtube/registering_an_application
