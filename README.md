@@ -1,7 +1,7 @@
 # hubot-youtube-v3
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]
 
-A hubot script for searching Youtube with the v3 Data API
+A hubot script for searching YouTube with the v3 Data API
 
 Built as a replacement for [hubot-youtube][hubot-youtube]
 

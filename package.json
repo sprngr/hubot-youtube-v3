@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sprngr/hubot-youtube-v3.git"
+    "url": "git+https://github.com/sprngr/hubot-youtube-v3.git"
   },
   "bugs": {
     "url": "https://github.com/sprngr/hubot-youtube-v3/issues"
@@ -45,5 +45,9 @@
   "scripts": {
     "test": "gulp test",
     "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "homepage": "https://github.com/sprngr/hubot-youtube-v3#readme",
+  "directories": {
+    "test": "test"
   }
 }
