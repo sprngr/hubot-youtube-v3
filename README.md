@@ -1,7 +1,7 @@
 # hubot-youtube-v3
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
-A hubot script for searching YouTube with the v3 Data API
+A hubot script for searching YouTube with the YouTube Data API v3
 
 Built as a replacement for [hubot-youtube][hubot-youtube]
 
@@ -21,7 +21,7 @@ Then add **hubot-youtube-v3** to your `external-scripts.json`:
 
 ## Configuration
 
-This package requires the `HUBOT_GOOGLE_API` environment variable to be set. This is an API key for a Google Developers project with access to the Youtube Data V3 API.
+This package requires the `HUBOT_GOOGLE_API` environment variable to be set. This is an API key for a Google Developers project with access to the YouTube Data API v3. Be sure to generate a Public API access key and not an OAuth ID.
 
 For more information on how to set this up, see the documentation here on [obtaining credentials][google-developer] from Google Developers.
 

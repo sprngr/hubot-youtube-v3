@@ -1,14 +1,13 @@
 # Description
-#   A hubot script for searching YouTube with the v3 data API.
+#   A hubot script for searching YouTube with the YouTube Data API v3.
 #   Based off the original hubot-youtube script.
 #
 # Configuration:
 #   HUBOT_GOOGLE_API - Your Google API key with access enabled for YouTube Data
-#                      V3 API
+#                      API v3
 #
 # Commands:
-#   hubot youtube me <query> - Searches YouTube for the query and returns the
-#                              video embed link.
+#   hubot youtube me <query> - Searches YouTube for the query and returns the video embed link.
 #
 # Notes:
 #   Make sure you don't go over your daily quota for API usage.
