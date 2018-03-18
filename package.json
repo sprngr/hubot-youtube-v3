@@ -1,7 +1,7 @@
 {
   "name": "hubot-youtube-v3",
   "description": "A hubot script for searching YouTube with the YouTube Data API v3",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Michael Springer <mike@sprngr.com>",
   "license": "MIT",
   "keywords": [
