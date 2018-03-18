@@ -1,9 +1,10 @@
 # hubot-youtube-v3
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+> A hubot script for searching YouTube with the YouTube Data API v3
+[![Travis](https://img.shields.io/travis/sprngr/hubot-youtube-v3.svg?style=for-the-badge)](https://travis-ci.org/sprngr/hubot-youtube-v3)
+[![npm](https://img.shields.io/npm/v/hubot-youtube-v3.svg?style=for-the-badge)](https://www.npmjs.com/package/hubot-youtube-v3)
+![From Pittsburgh With Love](https://img.shields.io/badge/from%20pittsburgh%20with-%E2%9D%A4-yellow.svg?style=for-the-badge)
 
-A hubot script for searching YouTube with the YouTube Data API v3
-
-Built as a replacement for [hubot-youtube][hubot-youtube]
+Originally built as a replacement for [hubot-youtube][hubot-youtube]
 
 See [`src/youtube-v3.coffee`](src/youtube-v3.coffee) for full documentation.
 
@@ -16,7 +17,9 @@ In hubot project repo, run:
 Then add **hubot-youtube-v3** to your `external-scripts.json`:
 
 ```json
-["hubot-youtube-v3"]
+[
+    "hubot-youtube-v3"
+]
 ```
 
 ## Configuration
@@ -32,11 +35,5 @@ user1>> hubot youtube me code monkey
 hubot>> http://www.youtube.com/watch?v=v4Wy7gRGgeA
 ```
 
-[npm-url]: https://npmjs.org/package/hubot-youtube-v3
-[npm-image]: http://img.shields.io/npm/v/hubot-youtube-v3.svg?style=flat
-[travis-url]: https://travis-ci.org/sprngr/hubot-youtube-v3
-[travis-image]: http://img.shields.io/travis/sprngr/hubot-youtube-v3/master.svg?style=flat
-[daviddm-url]: https://david-dm.org/sprngr/hubot-youtube-v3.svg?theme=shields.io
-[daviddm-image]: http://img.shields.io/david/sprngr/hubot-youtube-v3.svg?style=flat
 [hubot-youtube]:https://github.com/hubot-scripts/hubot-youtube
 [google-developer]: https://developers.google.com/youtube/registering_an_application

@@ -1,6 +1,9 @@
 language: node_js
+notifications:
+  email: false
 node_js:
-  - "0.11"
-  - "0.10"
-after_script:
-  - npm run coveralls
+  - "8" # latest stable
+  - "6" # LTS
+  - "4" # maintenance
+before_script:
+  - npm prune
