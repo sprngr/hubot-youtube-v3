@@ -1,5 +1,3 @@
-'use strict';
-
 // Description
 //   A hubot script for searching YouTube with the YouTube Data API v3.
 //   Based off the original hubot-youtube script.
@@ -17,9 +15,11 @@
 // Author:
 //   sprngr
 
+'use strict';
+
 module.exports = (robot) => {
     if (process.env.HUBOT_GOOGLE_API == null) {
-        robot.logger.warning("The HUBOT_GOOGLE_API environment variable not set");
+        robot.logger.warning('The HUBOT_GOOGLE_API environment variable not set');
         return;
     }
 
@@ -28,12 +28,12 @@ module.exports = (robot) => {
     robot.respond(/(?:youtube|yt)(?: me)?\s(.*)/i, (msg) => {
         let query, searchParams, ytSearchUrl;
         query = msg.match[1];
-        ytSearchUrl = "https://www.googleapis.com/youtube/v3/search";
+        ytSearchUrl = 'https://www.googleapis.com/youtube/v3/search';
         searchParams = {
-            order: "relevance",
-            part: "snippet",
+            order: 'relevance',
+            part: 'snippet',
             maxResults: 1,
-            type: "video",
+            type: 'video',
             key: ytApiKey,
             q: query
         };

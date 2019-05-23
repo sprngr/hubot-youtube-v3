@@ -13,7 +13,7 @@ describe('youtube-v3', () => {
         };
 
         // API Key used for testing to function, need to keep that secret
-        process.env.HUBOT_GOOGLE_API = "xXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXx";
+        process.env.HUBOT_GOOGLE_API = 'xXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXx';
 
         return require('../src/youtube-v3')(this.robot);
     });

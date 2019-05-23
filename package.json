@@ -1,7 +1,7 @@
 {
   "name": "hubot-youtube-v3",
   "description": "A hubot script for searching YouTube with the YouTube Data API v3",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Michael Springer <mike@sprngr.com>",
   "license": "MIT",
   "keywords": [
@@ -17,17 +17,15 @@
     "url": "https://github.com/sprngr/hubot-youtube-v3/issues"
   },
   "devDependencies": {
-    "mocha": "*",
     "chai": "*",
-    "sinon-chai": "*",
-    "sinon": "*"
+    "eslint": "^5.16.0",
+    "mocha": "*",
+    "sinon": "*",
+    "sinon-chai": "*"
   },
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
-  },
-  "homepage": "https://github.com/sprngr/hubot-youtube-v3#readme",
-  "directories": {
-    "test": "test"
+    "test": "mocha",
+    "lint": "eslint index.js src/**/*.js"
   }
 }
