@@ -1,9 +1,9 @@
 # hubot-youtube-v3
 > A hubot script for searching YouTube with the YouTube Data API v3
 
-[![Travis](https://img.shields.io/travis/sprngr/hubot-youtube-v3.svg?style=for-the-badge)](https://travis-ci.org/sprngr/hubot-youtube-v3)
-[![npm](https://img.shields.io/npm/v/hubot-youtube-v3.svg?style=for-the-badge)](https://www.npmjs.com/package/hubot-youtube-v3)
-![From Pittsburgh With Love](https://img.shields.io/badge/from%20pittsburgh%20with-%E2%9D%A4-yellow.svg?style=for-the-badge)
+[![Travis](https://img.shields.io/travis/sprngr/hubot-youtube-v3.svg)](https://travis-ci.org/sprngr/hubot-youtube-v3)
+[![npm](https://img.shields.io/npm/v/hubot-youtube-v3.svg)](https://www.npmjs.com/package/hubot-youtube-v3)
+![From Pittsburgh With Love](https://img.shields.io/badge/from%20pittsburgh%20with-%E2%9D%A4-yellow.svg)
 
 Originally built as a replacement for [hubot-youtube][hubot-youtube]
 
